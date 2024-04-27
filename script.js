@@ -43,6 +43,7 @@ function checkAnswer() {
   } else {
     showResult();
   }
+  answerInput.value = "";
 }
 
 function showResult() {
